@@ -1,0 +1,4 @@
+# No third-party Python packages are required.
+# The agent talks to Ollama's REST API using only the Python standard library (Python >= 3.9),
+# so it runs fully offline once Ollama and the model are installed:
+#   ollama pull qwen3.8:27b      (Ollama >= 0.32.12)
